@@ -14,6 +14,23 @@
         android:layout_height="wrap_content"
         android:text="Socket is not connected"
         android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/ip_host_server"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="192.168.43.164"
+        android:textAlignment="center"
+        android:layout_marginTop="40dp"/>
+
+    <EditText
+        android:id="@+id/port_host_server"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="6000"
+        android:textAlignment="center"
+        android:layout_marginTop="40dp"/>
+
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
